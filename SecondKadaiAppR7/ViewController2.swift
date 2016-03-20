@@ -17,7 +17,7 @@ class ViewController2: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        label1.text = "こんにちは\(text1)さん"
+        label1.text = "こんにちは　\(text1)　さん"
 
         // Do any additional setup after loading the view.
     }

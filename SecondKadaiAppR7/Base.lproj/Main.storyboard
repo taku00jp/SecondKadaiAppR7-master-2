@@ -23,8 +23,8 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbU-wg-BQk">
-                                <rect key="frame" x="118" y="190" width="84" height="30"/>
-                                <state key="normal" title="Go to View2"/>
+                                <rect key="frame" x="145" y="190" width="30" height="30"/>
+                                <state key="normal" title="表示"/>
                                 <connections>
                                     <segue destination="6e2-vv-Tj9" kind="modal" id="7FX-0U-fCp"/>
                                 </connections>
@@ -59,14 +59,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAu-DJ-RRd">
-                                <rect key="frame" x="112" y="202" width="96" height="30"/>
-                                <state key="normal" title="Back to View1"/>
+                                <rect key="frame" x="145" y="202" width="30" height="30"/>
+                                <state key="normal" title="戻る"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="modal" id="RUn-x8-QAb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gIU-e8-yWh">
-                                <rect key="frame" x="8" y="116" width="305" height="21"/>
+                                <rect key="frame" x="15" y="116" width="279" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
